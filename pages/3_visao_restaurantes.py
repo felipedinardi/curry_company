@@ -11,7 +11,7 @@ from streamlit_folium import st_folium
 
 st.set_page_config( page_title = 'Visão Restaurantes', layout='wide')
 
-df = pd.read_csv('../train.csv')
+df = pd.read_csv('database/train.csv')
 
 #-------------------------------------------------------------------------------------------------
 # Funções
